@@ -11,9 +11,13 @@
 2. Build docker image and store it in docker registry or push it to AWS ECR.
 
 example to push on AWS ECR
+
 aws ecr create-repository --repository-name java-backend
+
 aws ecr get-login-password | docker login --username AWS --password-stdin <ECR-URL>
+
 docker tag java-backend-app <ECR-URL>:latest
+
 docker push <ECR-URL>:latest
 
 ## Jenkins and Kubernetes
