@@ -1,4 +1,4 @@
-# Kubernetes Deployment using Terraform, Jenkins and AWS EKS.
+# Deployment using Kubernetes, Docker Terraform, Jenkins and AWS EKS.
 
 ## Build the infrastructure on AWS.
 
